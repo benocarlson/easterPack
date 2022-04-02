@@ -1,3 +1,5 @@
+# Run this function once in the world you plan to use
+
 team add hunters "Hunters"
 team add gatherers "Gatherers"
 
