@@ -1,0 +1,9 @@
+gamerule keepInventory true
+gamerule mobGriefing false
+gamerule doDaylightCycle false
+gamerule doInsomnia false
+gamerule doTraderSpawning false
+gamerule doPatrolSpawning false
+gamerule doTileDrops false
+gamerule doWeatherCycle false
+gamerule doEntityDrops false
