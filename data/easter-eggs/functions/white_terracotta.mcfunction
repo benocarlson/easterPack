@@ -1,7 +1,7 @@
-# This function defines the rewards for finding a red_concrete block
+# This function defines the rewards for finding a white_terracotta block
 
 # Do not modify these commands
-scoreboard players remove @s red_concrete_broken 1
+scoreboard players remove @s white_terracotta_broken 1
 scoreboard players add @s total_blocks_broken 1
 
 # Customize the following as desired.
