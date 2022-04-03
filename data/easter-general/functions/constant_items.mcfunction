@@ -1,4 +1,4 @@
-# Run this every tick to ensure that every player has exactly one of each constant item
+# This function is run every tick to ensure that every player has exactly one of each constant item
 
 execute as @a store result score @s has_chorus run clear @s chorus_fruit 0
 execute as @a if score @s has_chorus matches 0 run give @s chorus_fruit 1
