@@ -1,4 +1,4 @@
-# Run this function once in the world you plan to use
+# This function is run once in the world to set up general scoreboard objectives and teams
 
 team add hunters "Hunters"
 team add gatherers "Gatherers"

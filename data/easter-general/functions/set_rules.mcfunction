@@ -1,4 +1,4 @@
-# Run this command once in the world you plan to use
+# This function is run once in the world to set up gamerules
 
 gamerule keepInventory true
 gamerule mobGriefing false
