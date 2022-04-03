@@ -14,3 +14,6 @@ scoreboard objectives add has_pick dummy
 
 scoreboard objectives remove ate_chorus_fruit
 scoreboard objectives add ate_chorus_fruit minecraft.used:minecraft.chorus_fruit
+
+scoreboard objectives remove in_zone
+scoreboard objectives add in_zone dummy

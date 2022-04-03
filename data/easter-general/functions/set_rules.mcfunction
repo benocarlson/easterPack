@@ -9,3 +9,4 @@ gamerule doPatrolSpawning false
 gamerule doTileDrops false
 gamerule doWeatherCycle false
 gamerule doEntityDrops false
+gamerule commandBlockOutput false
