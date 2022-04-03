@@ -20,3 +20,6 @@ scoreboard objectives add ate_chorus_fruit minecraft.used:minecraft.chorus_fruit
 
 scoreboard objectives remove in_zone
 scoreboard objectives add in_zone dummy
+
+scoreboard objectives remove timer
+scoreboard objectives add timer dummy
