@@ -3,6 +3,9 @@
 team add hunters "Hunters"
 team add gatherers "Gatherers"
 
+scoreboard objectives remove initialized
+scoreboard objectives add initialized dummy
+
 scoreboard objectives remove total_blocks_broken
 scoreboard objectives add total_blocks_broken dummy "Total Eggs Found"
 

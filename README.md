@@ -25,7 +25,7 @@ Set up your Easter Egg hunt world by building a "home" area and choosing any are
 
 Then, do any customizations to this datapack that you desire. You can customize the rewards for finding individual colored blocks by modifying the functions in the [easter-eggs](/data/easter-eggs/) namespace. Customizable parts of the functions are marked by comments.
 
-YOU MUST customize the "home" coordinates in the [easter-general:return_home](/data/easter-general/functions/return_home.mcfunction) function.
+YOU MUST customize the "home" coordinates in the [easter-general:return_home](/data/easter-general/functions/return_home.mcfunction) function, and [easter-general:initialize](/data/easter-general/functions/initialize.mcfunction) function.
 
 After all customizations have been done, run as an operator the following command: 
 ```
