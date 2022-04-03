@@ -2,5 +2,6 @@
 
 # FIXME change these coordinates to the "home" coordinates
 spawnpoint @s ~ ~ ~
+gamemode adventure @s
 scoreboard players set @s initialized 1
 function easter-general:return_home
