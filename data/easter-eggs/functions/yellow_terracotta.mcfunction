@@ -6,4 +6,4 @@ scoreboard players add @s total_blocks_broken 1
 
 # Customize the following as desired.
 # You can add/remove give commands or even add effects or other rewards.
-function easter-general:random_reward
+function easter-general:rare_reward

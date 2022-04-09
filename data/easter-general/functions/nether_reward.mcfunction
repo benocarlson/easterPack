@@ -8,4 +8,4 @@ execute if score Timer_7 timer matches 0..2 run give @s glow_squid_spawn_egg{dis
 execute if score Timer_7 timer matches 3..5 run give @s glow_squid_spawn_egg{display:{Name:"\"Easter Dollar\""}} 2
 execute if score Timer_7 timer matches 6..7 run give @s glow_squid_spawn_egg{display:{Name:"\"Easter Dollar\""}} 3
 
-execute if score timer_11 timer matches 10 run give @s blaze_spawn_egg{display:{Name:"\"Spectator Token\""}} 1
+give @s wither_skeleton_spawn_egg{display:{Name:"\"Netherite Token\""}} 1
