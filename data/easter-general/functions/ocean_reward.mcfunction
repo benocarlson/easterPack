@@ -8,7 +8,7 @@ execute if score Timer_7 timer matches 0..2 run give @s glow_squid_spawn_egg{dis
 execute if score Timer_7 timer matches 3..5 run give @s glow_squid_spawn_egg{display:{Name:"\"Easter Dollar\""}} 4
 execute if score Timer_7 timer matches 6..7 run give @s glow_squid_spawn_egg{display:{Name:"\"Easter Dollar\""}} 6
 
-execute if score timer_11 timer matches 10 run give @s blaze_spawn_egg{display:{Name:"\"Spectator Token\""}} 1
+execute if score Timer_11 timer matches 10 run give @s blaze_spawn_egg{display:{Name:"\"Spectator Token\""}} 1
 
 execute if score Timer_4 timer matches 0 run give @s diamond_sword{Enchantments:[{id:sharpness,lvl:5},{id:unbreaking,lvl:3},{id:knockback,lvl:2}]} 1
 execute if score Timer_4 timer matches 1 run give @s trident{Enchantments:[{id:loyalty,lvl:3},{id:impaling,lvl:5},{id:unbreaking,lvl:3}]} 1
