@@ -2,6 +2,7 @@
 
 team add hunters "Hunters"
 team add gatherers "Gatherers"
+team add builders "Builders"
 
 scoreboard objectives remove initialized
 scoreboard objectives add initialized dummy
