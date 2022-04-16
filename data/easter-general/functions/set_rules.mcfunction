@@ -5,6 +5,7 @@ gamerule keepInventory true
 gamerule mobGriefing false
 gamerule doTileDrops false
 gamerule doEntityDrops false
+gamerule doMobLoot false
 
 # So that the operators don't constantly have their chats full
 gamerule commandBlockOutput false
