@@ -24,3 +24,6 @@ scoreboard objectives add in_zone dummy
 
 scoreboard objectives remove timer
 scoreboard objectives add timer dummy
+
+scoreboard objectives remove spectator_time
+scoreboard objectives add spectator_time dummy

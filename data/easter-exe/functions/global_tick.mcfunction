@@ -6,6 +6,7 @@ function easter-general:constant_items
 function easter-general:mobteams
 function easter-general:track_zone
 function easter-general:run_timer
+function easter-general:spectator_countdown
 
 
 execute as @a unless score @s initialized matches 1 run function easter-general:initialize
