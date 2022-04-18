@@ -21,7 +21,7 @@ This directory holds general functions for setting up and running the game. DO N
 #### [eggs](/data/easter/functions/eggs/)
 This directory holds functions that run the egg counting and rewards logic. DO NOT run these functions directly. They are run by the functions in the easter-exe namespace.
 
-<br><br>
+<br>
 
 ### [mall](/data/mall/) Namespace
 The mall namespace has tags specifying the items that are accepted as currency and functions for running the mall. These functions are organized into two sub-directories.
