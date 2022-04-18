@@ -8,7 +8,7 @@ Players search in Adventure Mode for colored blocks (terracotta and concrete) an
 
 ## How this Datapack is organized
 This datapack has a large set of Minecraft Functions that are used to run an Easter Egg Hunt game. These functions are organized into two namespaces:
----
+
 ### [easter](/data/easter/)
 The easter namespace has functions for operating the game itself. These functions are organized into three sub-directories:
 
@@ -20,7 +20,9 @@ This directory holds general functions for setting up and running the game. DO N
 
 #### [eggs](/data/easter/functions/eggs/)
 This directory holds functions that run the egg counting and rewards logic. DO NOT run these functions directly. They are run by the functions in the easter-exe namespace.
----
+
+<br><br>
+
 ### [mall](/data/mall/)
 The mall namespace has tags specifying the items that are accepted as currency and functions for running the mall. These functions are organized into two sub-directories.
 
