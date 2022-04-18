@@ -23,23 +23,23 @@ Required setup is relatively simple.
 
 Set up your Easter Egg hunt world by building a "home" area and choosing any areas in which you want people to be allowed to hunt.
 
-Then, do any customizations to this datapack that you desire. You can customize the rewards for finding individual colored blocks by modifying the functions in the [easter-eggs](/data/easter-eggs/) namespace. Customizable parts of the functions are marked by comments.
+Then, do any customizations to this datapack that you desire. You can customize the rewards for finding individual colored blocks by modifying the functions in the [easter-eggs](/data/eastereggs/) namespace. Customizable parts of the functions are marked by comments.
 
-YOU MUST customize the "home" coordinates in the [easter-general:return_home](/data/easter-general/functions/return_home.mcfunction) function, and [easter-general:initialize](/data/easter-general/functions/initialize.mcfunction) function.
+YOU MUST customize the "home" coordinates in the [easter:general/return_home](/data/easter/functions/general/return_home.mcfunction) function, and [easter:general/initialize](/data/easter/functions/general/initialize.mcfunction) function.
 
 After all customizations have been done, run as an operator the following command: 
 ```
-/function easter-exe:one_time_setup
+/function easter:exe/one_time_setup
 ```
 
 Next, in all of the areas you wish to allow players to be in, place command blocks set to repeating, unconditional, always active with the following command:
 ```
-/execute as @a[distance=..200] run function easter-exe:refresh_zone
+/execute as @a[distance=..200] run function easter:exe/refresh_zone
 ```
 Make sure that there is at least one of these command blocks within 200 blocks of anywhere you wish the players to be allowed to go. You can alternatively modify the distance requirement to change the shape or range as desired.
 
 Finally, in a force-loaded chunk, place a hidden command block set to repeating, unconditional, always active with the following command:
 ```
-/function easter-exe:global_tick
+/function easter:exe/global_tick
 ```
 This must be the last step, because after this point the game is being run and players outside of allowed zones will be returned home, which will make it difficult to make any more changes.

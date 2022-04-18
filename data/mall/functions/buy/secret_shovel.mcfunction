@@ -1,0 +1,3 @@
+clear @s #mall:dollars 30
+execute if entity @s[team=hunters] run give @s minecraft:stone_shovel{CanDestroy:[coarse_dirt],HideFlags:8, display:{Name:'"Hunter\'s Shovel"', Lore:['"Can dig through coarse dirt."']}} 1
+execute if entity @s[team=gatherers] run give @s minecraft:iron_shovel{CanDestroy:[coarse_dirt, red_sand],HideFlags:8, display:{Name:'"Gatherer\'s Shovel"', Lore:['"Can dig through coarse dirt and red sand."']}} 1
