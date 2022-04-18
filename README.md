@@ -1,6 +1,8 @@
 # easterPack
 A Minecraft Datapack for running an Easter Egg Hunt game
 
+Built to work with Minecraft version 1.18.2
+
 ## Easter Egg Hunt Game
 This game supports a mix of younger, less experienced players and older, more experienced players.
 
