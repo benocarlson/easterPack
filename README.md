@@ -58,7 +58,17 @@ Finally, in a force-loaded chunk, place a hidden command block set to repeating,
 ```
 This must be the last step, because after this point the game is being run and players outside of allowed zones will be returned home, which will make it inconvenient (though not very difficult) to make any more changes to the zone sizes.
 
-To set up the mall, have a redstone operated command block associated with each item that can be purchased. Have the price clearly displayed and have a button to activate the block. The command block should run the following command when triggered:
+To set up the mall, first run the [mall:setup/scoreboard_setup](/data/mall/functions/setup/scoreboard_setup.mcfunction) function as an operator to initialize the scoreboard for the mall:
+```
+/function mall:setup/scoreboard_setup
+```
+
+Then have a command block running every tick with the following command:
+```
+/execute as @a run function mall:setup/register_currency
+```
+
+Finally, a redstone operated command block must be associated with each item that can be purchased. Have the price clearly displayed and have a button to activate the block. The command block should run the following command when triggered:
 ```
 execute as @p if score <currency score> matches <price>.. run function mall:buy/<item>
 ```
